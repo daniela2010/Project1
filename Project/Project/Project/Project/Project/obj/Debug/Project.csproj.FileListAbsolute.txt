@@ -1,0 +1,20 @@
+c:\users\admin\documents\visual studio 2015\Projects\Project\Project\bin\Debug\Project.exe.config
+C:\Users\Admin\Desktop\Project\Project\Project\bin\Debug\Project.exe.config
+C:\Users\User\Desktop\פרוייקט\Project\Project\Project\bin\Debug\Project.exe.config
+C:\Users\Admin\Desktop\Project (1)\Project\bin\Debug\Project.exe.config
+C:\Users\Admin\Desktop\Project (1)\Project\bin\Debug\Project.exe
+C:\Users\Admin\Desktop\Project (1)\Project\bin\Debug\Project.pdb
+C:\Users\Admin\Desktop\Project (1)\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Project (1)\Project\obj\Debug\Project.exe
+C:\Users\Admin\Desktop\Project (1)\Project\obj\Debug\Project.pdb
+C:\Users\Admin\Desktop\Project\Project\bin\Debug\Project.exe.config
+C:\Users\Admin\Desktop\Project\Project\obj\Debug\Project.exe
+C:\Users\Admin\Desktop\Project\Project\obj\Debug\Project.pdb
+C:\Users\Admin\Desktop\Project\Project\bin\Debug\Project.exe
+C:\Users\Admin\Desktop\Project\Project\bin\Debug\Project.pdb
+C:\Users\Admin\Desktop\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Project\Project\Project\obj\Debug\Project.exe
+C:\Users\Admin\Desktop\Project\Project\Project\obj\Debug\Project.pdb
+C:\Users\Admin\Desktop\Project\Project\Project\bin\Debug\Project.exe
+C:\Users\Admin\Desktop\Project\Project\Project\bin\Debug\Project.pdb
+C:\Users\Admin\Desktop\Project\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache

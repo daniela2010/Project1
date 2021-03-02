@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html runat="server">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+      <style>
+          
+          body{
+              background-color:#ffeee6 /*#fbe9f8*/;
+              
+          }
+          #header{
+              width:100%;
+              height:120%;
+              color:black;
+              /*text-align:center;*/
+              border: 2px solid black;
+              background-color:#ffeee6 /*#FFFAF0*/ /*#fbe9f8*/;
+
+          }
+          li{
+              display: inline;
+              margin: 0px 50px;
+          }
+          #link{
+              width:92%;
+              padding:3px;
+              margin: 15px 40px 5px 40px;
+              /*text-align:center;*/
+              font-family: Verdana;
+              font-size:130%;
+              height: 128px;
+          }
+          a:link{
+              color: purple;
+              text-decoration:none;
+          }
+          a:visited{
+              color: black;
+              text-decoration:underline;
+              
+          }
+       a:hover{
+           color:darkgray;
+           text-decoration:none;
+       }
+       a:active{
+           color:darkblue;
+           text-decoration:none;
+       }
+      </style>
+      
+    <title></title>
+      <asp:ContentPlaceHolder ID="head" runat="server">
+          
+    </asp:ContentPlaceHolder>
+  </head>
+  <body>
+
+
+
+
+      <form id="form1" runat="server">
+          <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+           <asp:Panel ID="Panel1" runat="server" Height="25px"> <asp:Button ID="Button1" runat="server" BackColor="Black" BorderColor="#999999" ForeColor="White" Height="27px" OnClick="Button1_Click1" Text="Log out" Width="69px" /></asp:Panel>
+<div id="header">
+    <div id = "link">
+        <ul>
+            <li class="float-left"> <asp:Image ID="Image1" runat="server" Height="72px" Width="134px" /></li>
+             <asp:Panel ID="Panel2" runat="server" Height="27px" class="float-left"> <li> <a href ="SignIn.aspx">Login</a></li></asp:Panel>
+            <li class="float-left"> <a href="Home.aspx"> Home </a></li>
+            <li class="float-left"> <a href="WishList.aspx"> WishList</a></li>
+          <li class="float-left"> <a href="UserActivity.aspx">My activity</a></li>
+          <li style="background-color:#ffeee6;"> <nav class="navbar w-25 p-3">
+  <div class="form-inline">
+      <asp:TextBox ID="searchBox" runat="server" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></asp:TextBox>
+      <asp:Button ID="Button2" runat="server" Text="Search" class="btn btn-outline-success my-2 my-sm-0" type="submit" Height="32px" OnClick="Button2_Click" Width="105px"  />
+  </div>
+</nav></li>
+        </ul>
+</div>
+    </div> 
+   <div>
+       
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">       
+         
+        </asp:ContentPlaceHolder>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+    
+     
+  </form>
+     
+
+  
+  </body>
+    
+</html>
